@@ -5,15 +5,18 @@
  */
 
 plugins {
-    id("matching_engine.java-application-conventions")
+  id("matching_engine.java-application-conventions")
 }
 
 dependencies {
-    implementation("org.apache.commons:commons-text")
+  implementation("org.apache.commons:commons-text")
     implementation(project(":utilities"))
+    implementation(project(":business"))
 }
 
 application {
-    // Define the main class for the application.
-    mainClass.set("matching_engine.app.App")
+  // Define the main class for the application.
+  mainClass.set("matching_engine.app.App")
 }
+
+/* vim: set ts=2 sw=2 sts=2 expandtab ff=unix fenc=utf-8 */

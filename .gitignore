@@ -3,3 +3,5 @@
 
 # Ignore Gradle build output directory
 build
+java/.settings/org.eclipse.buildship.core.prefs
+java/.project

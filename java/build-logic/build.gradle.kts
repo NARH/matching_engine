@@ -5,11 +5,13 @@
  */
 
 plugins {
-    // Support convention plugins written in Kotlin. Convention plugins are build scripts in 'src/main' that automatically become available as plugins in the main build.
-    `kotlin-dsl`
+  // Support convention plugins written in Kotlin. Convention plugins are build scripts in 'src/main' that automatically become available as plugins in the main build.
+  `kotlin-dsl`
 }
 
 repositories {
-    // Use the plugin portal to apply community plugins in convention plugins.
-    gradlePluginPortal()
+  // Use the plugin portal to apply community plugins in convention plugins.
+  gradlePluginPortal()
 }
+
+/* vim: set ts=2 sw=2 sts=2 expandtab ff=unix fenc=utf-8 */

@@ -6,3 +6,5 @@
  */
 
 rootProject.name = "matching_engine-build-logic"
+
+/* vim: set ts=2 sw=2 sts=2 expandtab ff=unix fenc=utf-8 */

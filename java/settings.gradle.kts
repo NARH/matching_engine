@@ -15,3 +15,5 @@ pluginManagement {
 
 rootProject.name = "matching_engine"
 include("app", "list", "utilities")
+
+/* vim: set ts=2 sw=2 sts=2 expandtab ff=unix fenc=utf-8 */
